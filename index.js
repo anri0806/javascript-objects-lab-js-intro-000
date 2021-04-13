@@ -13,6 +13,6 @@ function deleteFromObjectByKey(object, key) {
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
- var object = 
+ var object = {};
  return delete object.key;
 }
